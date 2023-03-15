@@ -920,3 +920,42 @@
     bottom: 16vw;
   }
 }
+@media (max-width: 350px) {
+  .section-three h2 {
+    font-size: 17px;
+  }
+  .slide-img {
+    width: 250px;
+    height: 110px;
+    margin-right: 20px;
+  }
+  .slide-img img {
+    width: 90px;
+    height: 140px;
+  }
+
+  .slide-text {
+    max-width: 150px;
+  }
+
+  .slide-text h4 {
+    font-size: 9px;
+  }
+  .slide-text p {
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .section-three-btns {
+    left: 80vw;
+    bottom: 15vw;
+  }
+
+  .section-three-btns button {
+    width: 18px;
+    height: 18px;
+  }
+  .section-three-btns img {
+    max-width: 4px;
+  }
+}
